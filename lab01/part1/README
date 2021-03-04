@@ -1,0 +1,24 @@
+Here is the content of the folder:
+
+antsim                antsim executable
+
+antsim_play.m         matlab script displaying the ant and pheronomes densities for each time step (animation)
+antsim_stepbystep.m   matlab script displaying the ant and pheronomes densities for each time step (step-by-step animation)
+antsim_histogram.m    matlab script displaying the performances of the last set of simulations
+antsim_plot.m         matlab utility function
+
+env1.map              environment 1
+env2.map              environment 2
+env3.map              environment 3
+env4.map              environment 4
+
+matlab.c              utility functions to print matlab code to the console
+matlab.h
+species.c             defines what a species is
+species.h
+antsim.c              main file
+antsim.h
+environment.c         defines the environment
+environment.h
+ant.c                 defines an ant
+ant.h
